@@ -1,8 +1,6 @@
 import time
-from functools import cache
 
 
-@cache
 def really_slow_thing(input):
     print(f"Calculating something hard to do with the number {input}")
     # something that takes a really long time

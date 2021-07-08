@@ -1,4 +1,4 @@
-def fibbonaci_sequence():
+def fibbonacci_sequence():
     x = 0
     y = 1
     while True:
@@ -11,6 +11,7 @@ def fibbonaci_sequence():
 
 if __name__ == '__main__':
     size = 100
-    sequence = fibbonaci_sequence()
-    for i in range(size):
+    # 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+    sequence = fibbonacci_sequence()
+    for i in range(size + 1):
         print(next(sequence))
